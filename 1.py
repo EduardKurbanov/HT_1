@@ -11,6 +11,7 @@
 """
 while True:
     try:
+        print("input through ','")
         enter_mas = list(input("input numbers: ").split(","))
         print(enter_mas)
         tuple_mas = tuple(enter_mas)

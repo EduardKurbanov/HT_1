@@ -9,6 +9,7 @@
 """
 while True:
     try:
+        print("input through ','")
         enter_mas = list(input("input list: ").split(","))
         list_1 = []
         for i in enter_mas:
